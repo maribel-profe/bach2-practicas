@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo Bombilla Encendida/Apagada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        img {
+            width: 150px;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Control de la Bombilla</h1>
+    
+    <!-- Imagen de la bombilla -->
+    <img id="bombilla" src="off.png" alt="Bombilla apagada">
+    
+    <!-- Texto del estado -->
+    <p id="estado">La bombilla está apagada</p>
+    
+    <!-- Botones -->
+    <button onclick="encender()">Encender</button>
+    <button onclick="apagar()">Apagar</button>
 
+    <!-- Vincular el archivo JS -->
+    <script src="script.js"></script>
+</body>
+</html>
